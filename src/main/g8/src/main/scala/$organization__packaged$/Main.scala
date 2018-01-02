@@ -1,6 +1,5 @@
 package $organization$
 
-object $name;format="Camel"$ extends App {
+object Main extends App {
   println("Hello")
 }
-
