@@ -1,9 +1,10 @@
 package $organization$
 
 import org.scalactic.TypeCheckedTripleEquals
-import org.scalatest.{FunSpec, Matchers}
+import org.scalatest.funspec.AnyFunSpec
+import org.scalatest.matchers.should.Matchers
 
-class Spec extends FunSpec with Matchers with TypeCheckedTripleEquals {
+class Spec extends AnyFunSpec with Matchers with TypeCheckedTripleEquals {
 
   describe("Spec") {
     it("should do something") {
